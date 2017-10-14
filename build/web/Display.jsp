@@ -15,6 +15,8 @@
     <body style="font-family: Raleway">
         <br><br><br>
         <div class="calculate">
+              <div class="calculate-triangle"></div>
+              <h2 class="calculate-header"</h2>
             <div class="calculate-container">
         <span id ="expr">
             
@@ -42,7 +44,7 @@
                 newText += text.charAt(i).fontcolor("blue");
             }
             else {
-                newText += text[i];
+                newText += text.charAt(i).fontcolor("black");
             }
         }
         newText.fontsize(20);
